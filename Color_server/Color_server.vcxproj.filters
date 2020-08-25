@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\IOCP">
+      <UniqueIdentifier>{6a9690a1-21b9-4974-a359-542a02ba8fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\USER">
+      <UniqueIdentifier>{50aab6b0-faff-4b5b-a8f0-9c0b6589ec08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ETC">
+      <UniqueIdentifier>{f9529555-cb99-42f9-acca-45dd9ccbb20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\State">
+      <UniqueIdentifier>{a400e0d6-c1d4-4b7e-99ca-caba6052892b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{20ae47a0-3c3b-41f7-842d-a205be2b65a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Field">
+      <UniqueIdentifier>{f731c24e-605b-4361-82e0-aa1f1ac091ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC">
+      <UniqueIdentifier>{9b9e025e-aa34-4b9e-a8d6-3a50f8adffee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP.cpp">
+      <Filter>소스 파일\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>소스 파일\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.h">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldManager.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameprotocol.cpp">
+      <Filter>소스 파일\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPmap.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>소스 파일\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.cpp">
+      <Filter>소스 파일\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCManager.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IOCP.h">
+      <Filter>소스 파일\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>소스 파일\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>소스 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>소스 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>소스 파일\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>소스 파일\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldManager.h">
+      <Filter>소스 파일\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPmap.h">
+      <Filter>소스 파일\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>소스 파일\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>소스 파일\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.h">
+      <Filter>소스 파일\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCManager.h">
+      <Filter>소스 파일\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>소스 파일\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>소스 파일\Field</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
